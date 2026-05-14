@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>q10</title>
+</head>
+<body><h1>Q10.あなたについて教えて下さい。</h1>
+	<div style="width: 100%; background: #ccc;">
+	  <div th:style="'width:' + ${progress} + '%; background: green;'">
+		<span th:text="${progress} + '%'"></span>
+	  </div>
+	</div>
+<form action="/q10" method="POST"><p>年齢を聞かれたときに「今年度〇歳」と言う方だ。</p>
+<input type="radio" name="answer" value="yes">はい
+<input type="radio" name="answer" value="no">いいえ
+<br>
+<button type="submit">診断結果</button>
+</form></body></html>
