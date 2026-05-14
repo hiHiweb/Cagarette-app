@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<title>q5</title>
+</head>
+<body><h1>Q5.あなたについて教えて下さい。</h1>
+	<div style="width: 100%; background: #ccc;">
+  <div th:style="'width:' + ${progress} + '%; background: green;'">
+	<span th:text="${progress} + '%'"></span>
+  </div>
+</div>
+<form action="/q5" method="POST">
+	<p>Youtubeの画面を大きくしたい時には上にスワイプする派である。</p>
+<input type="radio" name="answer" value="yes">はい
+<input type="radio" name="answer" value="no">いいえ
+<br>
+<button type="submit">次へ</button>
+</form></body></html>

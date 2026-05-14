@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Q1</title>
+</head>
+<body>
+<h1>Q1.あなたについて教えてください。</h1>
+<div style="width: 100%; background: #ccc;">
+  <div th:style="'width:' + ${progress} + '%; background: green;'">
+	<span th:text="${progress} + '%'"></span>
+  </div>
+</div>
+
+	<form action="/q1" method="POST">
+<p>どちらかと言えば、公共交通期間を使うときはvizaタッチよりもsuicaなどの交通系を使う方だ。</p>
+<input type="radio" name="answer" value="yes">はい
+<input type="radio" name="answer" value="no">いいえ
+<br>
+<button type="submit">次へ</button>
+</form>
+</body>
+</html>
