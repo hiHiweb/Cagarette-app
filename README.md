@@ -32,6 +32,7 @@
 
 【プロジェクト構成】
 
+```text
 src/main/java/com/example/cigarette
 ├── CigaretteApplication.java
 ├── controller
@@ -44,3 +45,4 @@ src/main/java/com/example/cigarette
 src/main/resources/templates
 ├── q1.html ～ q10.html
 └── ResultRecommendApp.html
+```
