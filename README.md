@@ -32,9 +32,15 @@
 
 【プロジェクト構成】
 
-src/main/java/com/example/cigarette - CigaretteApplication.java
-&nbsp;&nbsp;&nbsp;<br><br>- controller -CigaretteController.java
-&nbsp;&nbsp;&nbsp;<br><br>- model -AssessmentForm.java
-&nbsp;&nbsp;&nbsp;<br><br>- service -CigaretteService.java
-&nbsp;&nbsp;&nbsp;<br><br>/resources- templates -q1.html ~ q10.html
-&nbsp;&nbsp;&nbsp;&nbsp;<br><br>-ResultRecommendApp.html
+src/main/java/com/example/cigarette
+├── CigaretteApplication.java
+├── controller
+│   └── CigaretteController.java
+├── model
+│   └── AssessmentForm.java
+├── service
+│   └── CigaretteService.java
+
+src/main/resources/templates
+├── q1.html ～ q10.html
+└── ResultRecommendApp.html
